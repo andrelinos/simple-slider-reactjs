@@ -20,3 +20,6 @@
 
 ## Imagem exemplo
 <img src="./prtscn/image.png" alt="">
+
+## Demonstração
+[simple-slider-reactjs](https://simple-slider-reactjs.vercel.app/)

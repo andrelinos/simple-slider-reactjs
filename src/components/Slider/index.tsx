@@ -48,6 +48,7 @@ export function Slider() {
                 <MdArrowForwardIos />
             </span>
             <img
+                className={[styles.loadImage, styles.image].join(' ')}
                 src={`${imageSlider[value].image}`}
                 alt={`${imageSlider[value].id}`}
             />
