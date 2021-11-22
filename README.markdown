@@ -7,8 +7,8 @@
 <br>
 
 ## Tecnologias
-- ReactJS
-- SASS
+- [ReactJS](https://reactjs.org/)
+- [SASS](https://sass-lang.com/)
 
 <br>
 
