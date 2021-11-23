@@ -95,3 +95,13 @@
     text-shadow: black 0.1em 0.1em 0.2em;
     text-transform: capitalize;
 }
+
+
+.mFadeOut {
+    opacity: 0.01;
+    transition: visibility 0s linear 500ms, opacity 500ms;
+}
+.mFadeIn {
+    opacity: 1;
+    transition: visibility 0s linear 1500ms, opacity 1500ms;
+}
