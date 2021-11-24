@@ -29,28 +29,28 @@ export const imageSlider = [
     },
     {
         id: 5,
-        title: 'bill anderson',
+        title: 'bill anderson 2',
         url: 'the boss',
         image: 'https://picsum.photos/id/50/800/800',
         text: "Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"
     },
     {
         id: 6,
-        title: 'bill anderson',
+        title: 'bill anderson 3',
         url: 'the boss',
         image: 'https://picsum.photos/id/60/800/800',
         text: "Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"
     },
     {
         id: 7,
-        title: 'bill anderson',
+        title: 'bill anderson 4',
         url: 'the boss',
         image: 'https://picsum.photos/id/70/800/800',
         text: "Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"
     },
     {
         id: 8,
-        title: 'bill anderson',
+        title: 'bill anderson 5',
         url: 'the boss',
         image: 'https://picsum.photos/id/80/800/800',
         text: "Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"
