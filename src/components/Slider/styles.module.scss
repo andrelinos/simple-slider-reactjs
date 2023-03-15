@@ -130,16 +130,15 @@
 }
 
 @media (max-width: 768px) {
-    information: {
+    .information {
         padding: 0 4rem;
         background: rgba(255, 255, 255, 0.65);
-    }
-    
-    title: {
+    }    
+    .title {
         font-size: 1.2rem;
     }
     
-    text: {
+    .text {
         font-size: 1rem;
         height: auto;
         margin-top: 1rem;
