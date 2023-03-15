@@ -77,25 +77,48 @@
     align-items: center;
     flex-direction: column;
     background: rgba(255, 255, 255, 0.1);
+    transition: all 0.4s ease-in-out 0.2s;
+    
+    &:hover {
+        background: rgba(255, 255, 255, 0.65);
+    }
+}
+
+.title {
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    overflow: hidden !important;
+    white-space: normal;
+    height: auto;
 }
 
 .text {
+   display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden !important;
+    white-space: normal;
     width: 80%;
+    height: auto;
     font-size: 1.5rem;
     line-height: 1.2;
     max-height: 85px;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-shadow: #fff 0.1em 0.1em 0.2em;
     color: #141414;
+    text-align: center;
+    margin-top: 1.5rem;
 }
-
-.title {
-    font-size: 2.5rem;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    text-transform: capitalize;
-}
-
 
 .mFadeOut {
     opacity: 0.01;
@@ -104,4 +127,21 @@
 .mFadeIn {
     opacity: 1;
     transition: visibility 0s linear 1500ms, opacity 1500ms;
+}
+
+@media (max-width: 768px) {
+    information: {
+        padding: 0 4rem;
+        background: rgba(255, 255, 255, 0.65);
+    }
+    
+    title: {
+        font-size: 1.2rem;
+    }
+    
+    text: {
+        font-size: 1rem;
+        height: auto;
+        margin-top: 1rem;
+    }
 }
